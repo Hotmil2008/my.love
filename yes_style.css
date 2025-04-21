@@ -1,19 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 body {
-    display: flex;
+    display: ;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url(https://media.giphy.com/media/13V2lGH2cUYgzC/giphy.gif?cid=ecf05e47f8nkjz8kib8b6qhwbrp773ly6mafcll7o217vo30&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+    background: url(https://media.giphy.com/media/ZF8WaQGTw8VBq0vQp9/giphy.gif?cid=ecf05e477wvtregllxa6kbrenf02jwyhn4octz4bgh64uog3&ep=v1_gifs_search&rid=giphy.gif&ct=g);
     background-size: cover;
 }
 
 h1{
-    font-family: "Winky Rough", sans-serif;
+    font-family: "Oswald", sans-serif;
     font-size: 60px;
-    color:  #000080;
+    color:  #010132fe;
     text-align: center;
-    text-shadow: 4px 7px 4px rgba(0, 0, 0, 0.5); 
-
+    text-shadow: 4px 7px 4px #0000806b; 
 }
