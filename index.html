@@ -7,25 +7,35 @@
     <body>
         <div class="container">
             <div >
-                <h1 class = "header_text">Estou aqui para te fazer um convite!</h1>
-                <h1 class = "header_text">Você aceita?? </h1>
+                <h1 class = "header_text"> Você sabe oque aconteceu quando eu te conheci?? </h1>
+                <h1 class = "header_text">Você sabe em sabe?? </h1>
             </div>
-            <div class="gif_container">
-        
-                <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWJ0bnV2OG03cWQ5Nngyd2RlOWh3amNyM3h4c3YyeGM0Z2Rub3V0aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fOqzMnu0EhxmM/giphy.gif" alt="Cute animated illustration" height="190">
+            <div>
+                <h1>
+                    <br>
+                </h1>
             </div>
+            <div class="snoopy"> 
+                <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWNjeDBvOTk1cTVoNWx3eWpkNWMxOGV0ZWt1M3lkOWdnNjB0bDk5diZlcD12MV9naWZzX3NlYXJjaCZjdD1n/kDg0PNwd1O0kmiWM9u/giphy.gif" alt="imagem fofa do passarinho jigando coraçao no snoopy" height="200">
+            </div>
+
+            <h1>
+                <br>
+            </h1>
+            
+            
             <div class = "buttons">
                 
-                <button class="btns" id = "yesButton" onclick="nextPage()">sim🥰</button>
+                <button class="btns" id = "yesButton" onclick="nextPage()">me diga por favor🥰</button>
 
-                <button class="btn" id="noButton" onmouseover="moveButton()" onclick="moveButton()">Não😡</button>
+                <button class="btn" id="noButton" onmouseover="moveButton()" onclick="moveButton()">Não quero saber😡</button>
                 <script>
                     function nextPage() {
                         window.location.href = "yes.html";
                     }
                     
                     function moveButton() {
-                        var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth) - 88;
+                        var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth) - 40;
                         var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight) - 48;
                         document.getElementById('noButton').style.left = `${x}px`;
                         document.getElementById('noButton').style.top = `${y}px`;
