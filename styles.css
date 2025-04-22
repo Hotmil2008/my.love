@@ -1,10 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@font-face{
+    font-family: 'peanuts';
+    src: url('snoopy_reg-webfont.otf') format('truetype');
+}
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 90vh;
-    background: rgb(185, 185, 235);
+    background: url(snoopys.png);
+    background-size: cover;
 }
 
 #noButton {
@@ -19,14 +24,13 @@ body {
 }
 
 .header_text {
-    font-family: "Oswald", sans-serif;
-    font-size: 30px;
+    font-family: 'peanuts';
+    font-size: 40px;
     font-weight: bold;
-    color: #06065a;
+    color: #000000;
     text-align: center;
     margin-top: 20px;
     margin-bottom: -10px;
-    text-shadow: 4px 7px 4px #0000806b; 
 }
 
 .buttons {
@@ -46,13 +50,13 @@ body {
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
     border: none;
     border-radius: 12px;
     transition: all 0.3s ease;
-    font-family: "Oswald", sans-serif;
+    font-family: 'peanuts';
 }
 
 .btns {
@@ -62,13 +66,13 @@ body {
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
     border: none;
     border-radius: 12px;
     transition: all 0.3s ease;
-    font-family: "Winky Rough", sans-serif;
+    font-family: 'peanuts';
 
 }
 
@@ -115,8 +119,4 @@ body {
         font-size: 14px;
         box-shadow: 4px 7px 4px rgba(0, 0, 0, 0.5);
     }
-}
-
-h1{
-    text-shadow: 4px 7px 4px rgba(0, 0, 0, 0.5); 
 }

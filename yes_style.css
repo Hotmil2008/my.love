@@ -1,18 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@font-face{
+    font-family: 'peanuts';
+    src: url('snoopy_reg-webfont.otf') format('truetype');
+}
 
 body {
     display: flex ;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url(https://media.giphy.com/media/ZF8WaQGTw8VBq0vQp9/giphy.gif?cid=ecf05e477wvtregllxa6kbrenf02jwyhn4octz4bgh64uog3&ep=v1_gifs_search&rid=giphy.gif&ct=g);
-    background-size: cover;
+    background: url(https://media.giphy.com/media/x1hlYzLJPV4kg/giphy.gif?cid=ecf05e477kq969emu4i37382f4neqyzu3uu7f7h6dz84q75r&ep=v1_gifs_related&rid=giphy.gif&ct=g);
+    background-size: cover
 }
 
 h1{
-    font-family: "Oswald", sans-serif;
+    font-family: 'peanuts';
     font-size: 60px;
-    color:  #010132fe;
+    color:  #fffffffe;
     text-align: center;
-    text-shadow: 4px 7px 4px #0000806b; 
+    text-shadow: 4px 7px 4px #16040491; 
 }
