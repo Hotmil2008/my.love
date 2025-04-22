@@ -6,7 +6,7 @@ body {
     align-items: center;
     height: 100vh;
     background: url(https://media.giphy.com/media/ZF8WaQGTw8VBq0vQp9/giphy.gif?cid=ecf05e477wvtregllxa6kbrenf02jwyhn4octz4bgh64uog3&ep=v1_gifs_search&rid=giphy.gif&ct=g);
-    background-size: ;
+    background-size: cover;
 }
 
 h1{
